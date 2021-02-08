@@ -1,0 +1,11 @@
+{
+  "name": "Inclusive Focus",
+  "version": "1.0",
+  "description": "Showing you the alternative!",
+  "manifest_version": 2,
+  "content_scripts": [{
+  	"matches": ["<all_urls>"],
+  	"all_frames": true,
+  	"js": ["main.js"]
+  }]
+}
